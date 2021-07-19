@@ -3,11 +3,11 @@ from aluraflix.models import Programa
 
 
 class ProgramaModelTestCase(TestCase):
-    
+
     def setUp(self):
         self.programa = Programa(
-            titulo = "Procurando Ningúem em latim",
-            data_lancamento = "2003-07-04"
+            titulo="Procurando Ningúem em latim",
+            data_lancamento="2003-07-04"
         )
 
     def test_verifica_atributos_do_programa(self):
